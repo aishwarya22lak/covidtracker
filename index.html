@@ -42,6 +42,10 @@
     let confirmed =document.getElementById("confirmed")
     let recovered  =document.getElementById("recovered")
     let deaths  =document.getElementById("deaths")
+    
+    confirmed.innerHTML =""
+    recovered.innerHTML=""
+    deaths.innerHTML=""
 
      confirmed.append("Total Confirmed Cases:" + data[index].Confirmed) 
      recovered.append("Total recovered Cases:" + data[index].Recovered) 
